@@ -14,29 +14,27 @@ Afin de cerner la complexité du problème du logarithme discret, j'ai commencé
   1. Crypto-système d'El Gamal et problème du logarithme discret.
   2. Algorithme naïf.
   3. Une méthode plus efficace : Algorithme de Shank.
+2. Un outil indispensable : les tables de hachage.
+  1. Définitions.
+  2. Gestion des collisions par chaînage.
 
-[u]II/ Un outil indispensable : les tables de hachage.[/u]
-[tab]a) Définitions.
-[tab]b) Gestion des collisions par chaînage.
+3. Efficacité et limites de l'algorithme de Shank.
 
-[u]III/ Efficacité et limites de l'algorithme de Shank.[/u]
+## Sources :
 
-[b][u]Sources :[/b][/u]
+- Thomas Cormen, Charles Leiserson et Ronald Rivest , "Introduction à l'algorithmique" , DUNOD, 1994.
+- Christine Froideveaux, Marie-Claude Gaudel et Michèle Soria, "Types de données et algorithmes" , EDISCIENCE international, 1993.
 
--Thomas Cormen, Charles Leiserson et Ronald Rivest , "Introduction à l'algorithmique" , DUNOD, 1994.
--Christine Froideveaux, Marie-Claude Gaudel et Michèle Soria, "Types de données et algorithmes" , EDISCIENCE international, 1993.
+- Christophe Delaunay, "Le « problème du logarithme discret » en cryptographie" : http://images.math.cnrs.fr/Le-probleme-du-logarithme-discret.html
+- Andrew V. Sutherland, "Order Computations in Generic Groups" : http://groups.csail.mit.edu/cis/theses/sutherland-phd.pdf
+- Shishir Agrawal, "Shank's baby-step giant-step algorithm" : https://math.berkeley.edu/~sagrawal/su14_math55/notes_shank.pdf
+- Conférence de presse du CNRS, "les enjeux de la cryptologie" : http://www2.cnrs.fr/sites/communique/fichier/6_enjeux_charte.pdf
+- CPAS , "Liste des nombres premiers en ligne" : http://compoasso.free.fr/primelistweb/page/prime/liste_online.php
+- François Brunault, "TD/TP sur les corps finis" : http://perso.ens-lyon.fr/francois.brunault/enseignement/1415/TD_Corps_finis.pdf
+- Wikipédia (encyclopédie libre):
+  - Inverse modulaire : http://fr.wikipedia.org/wiki/Inverse_modulaire
+  - Système El Gamal : http://fr.wikipedia.org/wiki/Cryptosyst%C3%A8me_de_ElGamal
 
--Christophe Delaunay, "Le « problème du logarithme discret » en cryptographie" : http://images.math.cnrs.fr/Le-probleme-du-logarithme-discret.html
--Andrew V. Sutherland, "Order Computations in Generic Groups" : http://groups.csail.mit.edu/cis/theses/sutherland-phd.pdf
--Shishir Agrawal, "Shank's baby-step giant-step algorithm" : https://math.berkeley.edu/~sagrawal/su14_math55/notes_shank.pdf
--Conférence de presse du CNRS, "les enjeux de la cryptologie" : http://www2.cnrs.fr/sites/communique/fichier/6_enjeux_charte.pdf
--CPAS , "Liste des nombres premiers en ligne" : http://compoasso.free.fr/primelistweb/page/prime/liste_online.php
--François Brunault, "TD/TP sur les corps finis" : http://perso.ens-lyon.fr/francois.brunault/enseignement/1415/TD_Corps_finis.pdf
--Wikipédia (encyclopédie libre):
-[tab]Inverse modulaire : http://fr.wikipedia.org/wiki/Inverse_modulaire
-[tab]Système El Gamal : http://fr.wikipedia.org/wiki/Cryptosyst%C3%A8me_de_ElGamal
-
-
-[b][u]Contact :[/b][/u]
+#### Contact :
 
 Jacques Patarin, cryptologue et professeur à l'université de Versailles-Saint-Quentin-en-Yvelines.
