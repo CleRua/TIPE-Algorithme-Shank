@@ -6,14 +6,14 @@ Longtemps réservée au domaine militaire, la cryptographie est une science trè
 
 On dit qu'un crypto-système est difficile à « casser » si, lorsqu'on intercepte un message crypté, décrypter ce message sans la clé nécessaire est soit impossible, soit trop long pour être effectué en un temps raisonnable. Un message peut être une séquence de bits (0 et 1), un caractère (« A »), une chaîne de caractères ou encore un nombre. Dans un souci de simplification j'ai uniquement considéré des messages sous forme d'entiers puisque le système de sécurité El Gamal réalise des opérations sur les entiers.
 
-Afin de cerner la complexité du problème du logarithme discret, j'ai commencé par tester les limites d'un algorithme naïf. Lorsque les données sont trop volumineuses, l'algorithme naïf n'est plus capable de donner une solution en un temps raisonnable ; j'ai alors eu recours à un autre algorithme plus performant : l'algorithme de Shank (également appelé « Baby-step Giant-step »).  Cependant, une implémentation efficace de cet algorithme requiert que l'on distribue intelligemment ses ressources informatiques. Pour exécuter une telle distribution, j'ai fait appel à la structure de données des  « tables de hachage ».
+Afin de cerner la complexité du problème du logarithme discret, j'ai commencé par tester les limites d'un algorithme naïf. Lorsque les données sont trop volumineuses, l'algorithme naïf n'est plus capable de donner une solution en un temps raisonnable ; j'ai alors eu recours à un autre algorithme plus performant : l'algorithme de Shank (également appelé « Baby-step Giant-step »).  Cependant, une implémentation efficace de cet algorithme requiert que l'on distribue intelligemment ses ressources informatiques. Pour exécuter une telle distribution, j'ai fait appel à la structure de données des tables de hachage.
 
 ## Plan :
 
 1. Présentation du problème et des algorithmes.
-  1. Crypto-système d'El Gamal et problème du logarithme discret.
-  2. Algorithme naïf.
-  3. Une méthode plus efficace : Algorithme de Shank.
+  1.Crypto-système d'El Gamal et problème du logarithme discret.
+  2.Algorithme naïf.
+  3.Une méthode plus efficace : Algorithme de Shank.
 2. Un outil indispensable : les tables de hachage.
   1. Définitions.
   2. Gestion des collisions par chaînage.
