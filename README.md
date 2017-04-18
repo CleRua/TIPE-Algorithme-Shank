@@ -1,7 +1,7 @@
 # TIPE Algorithme Shank
 TIPE sur l'attaque du système de cryptage d'El Gamal à travers une comparaison entre l'algorithme naif et l'algorithme de Shank.
 
-**_Sujet :_** Attaque du système de cryptage d'El Gamal.
+** *Sujet :* ** Attaque du système de cryptage d'El Gamal.
 
 [b][u]Description :[/b][/u]
 [tab]Longtemps réservée au domaine militaire, la cryptographie est une science très jeune qui a véritablement éclos avec l'avènement de l'informatique et la généralisation des télécommunications.  Dans le cadre de ce TIPE, je me suis plus spécifiquement intéressé au système cryptographique d'El Gamal dont la sécurité repose sur le problème dit du « logarithme discret ». 
