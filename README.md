@@ -1,19 +1,19 @@
 # TIPE Algorithme Shank
 TIPE sur l'attaque du système de cryptage d'El Gamal à travers une comparaison entre l'algorithme naif et l'algorithme de Shank.
 
-** *Sujet :* ** Attaque du système de cryptage d'El Gamal.
+## Description :
+Longtemps réservée au domaine militaire, la cryptographie est une science très jeune qui a véritablement éclos avec l'avènement de l'informatique et la généralisation des télécommunications.  Dans le cadre de ce TIPE, je me suis plus spécifiquement intéressé au système cryptographique d'El Gamal dont la sécurité repose sur le problème dit du « logarithme discret ». 
 
-[b][u]Description :[/b][/u]
-[tab]Longtemps réservée au domaine militaire, la cryptographie est une science très jeune qui a véritablement éclos avec l'avènement de l'informatique et la généralisation des télécommunications.  Dans le cadre de ce TIPE, je me suis plus spécifiquement intéressé au système cryptographique d'El Gamal dont la sécurité repose sur le problème dit du « logarithme discret ». 
-[tab]On dit qu'un crypto-système est difficile à « casser » si, lorsqu'on intercepte un message crypté, décrypter ce message sans la clé nécessaire est soit impossible, soit trop long pour être effectué en un temps raisonnable. Un message peut être une séquence de bits (0 et 1), un caractère (« A »), une chaîne de caractères ou encore un nombre. Dans un souci de simplification j'ai uniquement considéré des messages sous forme d'entiers puisque le système de sécurité El Gamal réalise des opérations sur les entiers.
-[tab]Afin de cerner la complexité du problème du logarithme discret, j'ai commencé par tester les limites d'un algorithme naïf. Lorsque les données sont trop volumineuses, l'algorithme naïf n'est plus capable de donner une solution en un temps raisonnable ; j'ai alors eu recours à un autre algorithme plus performant : l'algorithme de Shank (également appelé « Baby-step Giant-step »).  Cependant, une implémentation efficace de cet algorithme requiert que l'on distribue intelligemment ses ressources informatiques. Pour exécuter une telle distribution, j'ai fait appel à la structure de données des  « tables de hachage ».
+On dit qu'un crypto-système est difficile à « casser » si, lorsqu'on intercepte un message crypté, décrypter ce message sans la clé nécessaire est soit impossible, soit trop long pour être effectué en un temps raisonnable. Un message peut être une séquence de bits (0 et 1), un caractère (« A »), une chaîne de caractères ou encore un nombre. Dans un souci de simplification j'ai uniquement considéré des messages sous forme d'entiers puisque le système de sécurité El Gamal réalise des opérations sur les entiers.
 
-[b][u]Plan :[/b][/u]
+Afin de cerner la complexité du problème du logarithme discret, j'ai commencé par tester les limites d'un algorithme naïf. Lorsque les données sont trop volumineuses, l'algorithme naïf n'est plus capable de donner une solution en un temps raisonnable ; j'ai alors eu recours à un autre algorithme plus performant : l'algorithme de Shank (également appelé « Baby-step Giant-step »).  Cependant, une implémentation efficace de cet algorithme requiert que l'on distribue intelligemment ses ressources informatiques. Pour exécuter une telle distribution, j'ai fait appel à la structure de données des  « tables de hachage ».
 
-[u]I/ Présentation du problème et des algorithmes.[/u]
-[tab]a) Crypto-système d'El Gamal et problème du logarithme discret.
-[tab]b) Algorithme naïf.
-[tab]c) Une méthode plus efficace : Algorithme de Shank.
+## Plan :
+
+1. Présentation du problème et des algorithmes.[/u]
+ a. Crypto-système d'El Gamal et problème du logarithme discret.
+ b. Algorithme naïf.
+ c. Une méthode plus efficace : Algorithme de Shank.
 
 [u]II/ Un outil indispensable : les tables de hachage.[/u]
 [tab]a) Définitions.
