@@ -11,9 +11,9 @@ Afin de cerner la complexité du problème du logarithme discret, j'ai commencé
 ## Plan :
 
 1. Présentation du problème et des algorithmes.
- 1. Crypto-système d'El Gamal et problème du logarithme discret.
- 2. Algorithme naïf.
- 3. Une méthode plus efficace : Algorithme de Shank.
+  1. Crypto-système d'El Gamal et problème du logarithme discret.
+  2. Algorithme naïf.
+  3. Une méthode plus efficace : Algorithme de Shank.
 
 [u]II/ Un outil indispensable : les tables de hachage.[/u]
 [tab]a) Définitions.
